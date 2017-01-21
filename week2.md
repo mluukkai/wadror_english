@@ -311,7 +311,7 @@ Start the Rails console running the command <code>rails c</code> from the comman
 The ratings are added to the first beer which is found in the database. Notice the way it was created; you could have run the same thing with the more complex
 
 ```ruby
-    b.ratings << Rating.create score:15
+    b.ratings << (Rating.create score:15)
 ```
 
 >## Exercise 1
